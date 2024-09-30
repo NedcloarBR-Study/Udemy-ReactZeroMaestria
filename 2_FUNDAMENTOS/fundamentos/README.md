@@ -13,3 +13,13 @@
   - Utilizamos a sintaxe: `import X from "./components/X"` onde X é o nome do componente
   - Para colocar o componente importado em outro componente precisamos colocá-lo em forma de tag: `<X />`
   - E então finalizamos o ciclo de importação
+
+# Aula 3
+
+- JSX
+  - `JSX` é o HTML do React
+  - Onde vamos declarar as tags de HTML que serão exibidas no navegador
+  - Ficam no `return` do componente
+  - Temos algumas diferenças do HTML, por exemplo: class será `className`
+  - Isso se dá pelas `instruções semelhantes de JS e HTML` pois JSX é JavaScript, então algumas terão nomes diferentes
+  - O JSX pode ter apenas `um elemento pai`
