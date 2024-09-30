@@ -1,7 +1,7 @@
 function FirstComponent() {
   return (
     <div>
-      Meu primeiro componente
+      <h1>Meu primeiro componente</h1>
     </div>
   );
 }
