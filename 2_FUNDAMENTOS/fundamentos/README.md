@@ -23,3 +23,11 @@
   - Temos algumas diferenças do HTML, por exemplo: class será `className`
   - Isso se dá pelas `instruções semelhantes de JS e HTML` pois JSX é JavaScript, então algumas terão nomes diferentes
   - O JSX pode ter apenas `um elemento pai`
+
+# Aula 4
+
+- Comentários no componente
+  - Podemos inserir comentários de `duas maneiras` no componente
+  - Na parte da função, onde é executada a lógica a sintaxe é: `// Algum comentário`
+  - E também no JSX: `{/* Algum comentário */}`
+  - As chaves nos permitem `executar sentenças em JavaScript`, veremos isso mais adiante
