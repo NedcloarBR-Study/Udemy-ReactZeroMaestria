@@ -31,3 +31,11 @@
   - Na parte da função, onde é executada a lógica a sintaxe é: `// Algum comentário`
   - E também no JSX: `{/* Algum comentário */}`
   - As chaves nos permitem `executar sentenças em JavaScript`, veremos isso mais adiante
+
+# Aula 5
+
+- Template Expressions
+  - `Template Expressions` é um recurso que nos permite executar JS no JSX e também `interpolar variáveis`
+  - Isso será muito útil ao longo dos projetos em React
+  - A sintaxe é: `{ algumCódigoEmJS}`
+  - `Tudo que está entre chaves é processado em JavaScript` e nos retorna um resultado
