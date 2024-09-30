@@ -1,0 +1,2 @@
+Este repositório abriga o conteúdo das aulas do curso [React do Zero a Maestria (c/ hooks, router, API, Projetos)](https://www.udemy.com/course/react-do-zero-a-maestria-c-hooks-router-api-projetos/) do professor
+[Matheus Battisti](https://www.udemy.com/user/matheus-battisti/) na plataforma da [Udemy](https://www.udemy.com/)
