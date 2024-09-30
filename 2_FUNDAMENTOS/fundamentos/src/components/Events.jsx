@@ -4,6 +4,14 @@ function Events() {
     console.log("Ativou o evento!");
   }
 
+  const handleSomething = (x) => {
+    if(!x) {
+      return <h1>Renderizando isso!</h1>
+    }
+
+    return <h1>Também posso renderizar isso!</h1>
+  }
+
   return (
     <div>
       <div>
@@ -17,6 +25,8 @@ function Events() {
           }
         }}>Clica aqui, por favor.</button>
       </div>
+      {handleSomething(true)}
+      {handleSomething(false)}
     </div>
   )
 }

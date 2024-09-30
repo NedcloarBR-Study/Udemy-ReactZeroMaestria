@@ -61,3 +61,10 @@
   - Quando as funções são simples, podemos `realizar a lógica no próprio evento`
   - Isso `torna nosso código mais "complicado"`, por atrelar lógica com HTML
   - Mas em `algumas situações` é aplicável
+
+# Aula 9
+
+- Funções de renderização
+  - Podemos criar `funções que retornam JSX`
+  - Isso serve para criar situações que `dependam de outras condições`
+  - Ou seja, o JSX a ser renderizado pode variar por alguma variável, por exemplo
