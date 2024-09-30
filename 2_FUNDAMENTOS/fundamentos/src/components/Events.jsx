@@ -9,6 +9,14 @@ function Events() {
       <div>
         <button onClick={handleMyClick}>Clique aqui</button>
       </div>
+      <div>
+        <button onClick={() => console.log("Clicou!")}>Clique aqui também</button>
+        <button onClick={() => {
+          if(true) {
+            console.log("HTML Complicado");
+          }
+        }}>Clica aqui, por favor.</button>
+      </div>
     </div>
   )
 }
