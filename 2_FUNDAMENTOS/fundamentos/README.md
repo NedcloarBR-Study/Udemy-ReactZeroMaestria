@@ -45,3 +45,12 @@
 - Hierarquia de componentes
   - Os componentes que criamos `podem ser reutilizados em vários componentes`
   - E ainda componentes `podem formar uma hierarquia`, sendo importados uns dentro dos outros, como fizemos em App
+
+# Aula 7
+
+- Evento de click
+  - Os eventos para o front-end são `essenciais`
+  - Em várias situações vamos precisar do click, como ao `enviar formulários`
+  - No React os eventos já estão "prontos", podemos utilizar `onClick` para ativar uma função ao clicar em um elemento
+  - Essa função é criada na própria função do componente
+  - As funções geralmente tem o padrão `handleAlgumaCoisa`
