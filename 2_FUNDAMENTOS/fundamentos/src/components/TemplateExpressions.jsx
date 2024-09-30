@@ -1,3 +1,5 @@
+import MyComponent from "./MyComponent";
+
 function TemplateExpressions() {
 
   const name = 'Miguel';
@@ -13,6 +15,7 @@ function TemplateExpressions() {
       <p>Profissão: {data.job}</p>
       <p>{2 + 2}</p>
       <p>{console.log("JSX React")}</p>
+      <MyComponent />
     </div>
   )
 }

@@ -1,5 +1,7 @@
 // Isso é um comentário
 
+import MyComponent from "./MyComponent";
+
 function FirstComponent() {
   // Isso é um comentário
   /*
@@ -11,6 +13,7 @@ function FirstComponent() {
       {/* Isso é um comentário */}
       <h1>Meu primeiro componente</h1>
       <p className="teste">Meu texto</p>
+      <MyComponent />
     </div>
   );
 }

@@ -39,3 +39,9 @@
   - Isso será muito útil ao longo dos projetos em React
   - A sintaxe é: `{ algumCódigoEmJS}`
   - `Tudo que está entre chaves é processado em JavaScript` e nos retorna um resultado
+
+# Aula 6
+
+- Hierarquia de componentes
+  - Os componentes que criamos `podem ser reutilizados em vários componentes`
+  - E ainda componentes `podem formar uma hierarquia`, sendo importados uns dentro dos outros, como fizemos em App
