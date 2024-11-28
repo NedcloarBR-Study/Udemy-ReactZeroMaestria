@@ -29,3 +29,11 @@
   - O hook `useState` é um dos mais utilizados
   - Utilizamos para `gerenciar o estado de algum dado`, variáveis não funcionam corretamente, o componente não re-renderiza
   - Para guardar o dado definimos o nome da variável e para alterar vamos utilizar `setNode`, onde nome é o nome do nosso dado
+
+# Aula 05
+
+- Renderização de lista
+  - Uma outra ação bem comum é `renderizar listas` de dados no template
+  - Fazemos isso com os dados com tipo de `array`
+  - Utilizando o `método map` para nos auxiliar
+  - Além dos dados podemos `inserir JSX` em cada iteração
