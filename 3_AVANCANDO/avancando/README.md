@@ -67,3 +67,11 @@
   - Podemos também realizar um `if/else no JSX`
   - aqui deveremos utilizar o `if ternário`
   - Onde temos a sintaxe: condição ? bloco1 : bloco2
+
+# Aula 10
+
+- Props
+  - `Props` é outro recurso fundamental do React
+  - Nos permite `passar valores de um componente pai para um componente filho`
+  - Isso será muito útil quando os dados forem carregados via banco de dados, por exemplo
+  - As props vem em um objeto no `argumento da função do componente`
