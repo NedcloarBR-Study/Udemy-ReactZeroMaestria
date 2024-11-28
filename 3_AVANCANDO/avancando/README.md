@@ -60,3 +60,10 @@
   - `Renderização condicional` é quando imprimimos uma parte do template baseado em uma condição
   - Ou seja, utilizamos uma `if`
   - Isso é interessante em situações como: usuário autenticado/não autenticado
+
+# Aula 09
+
+- Adicionando um else
+  - Podemos também realizar um `if/else no JSX`
+  - aqui deveremos utilizar o `if ternário`
+  - Onde temos a sintaxe: condição ? bloco1 : bloco2
