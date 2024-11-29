@@ -75,3 +75,12 @@
   - Nos permite `passar valores de um componente pai para um componente filho`
   - Isso será muito útil quando os dados forem carregados via banco de dados, por exemplo
   - As props vem em um objeto no `argumento da função do componente`
+
+# Aula 11
+
+- Desestruturando props
+  - É super comum passar `mais de uma prop em um componente`
+  - Para facilitar isso o React nos permite `desestruturar as propriedades que chegam`, com o recurso de destructuring
+  - Se temos duas props: nage e age
+  - Podemos fazer assim function MyComponent(`{name, age}`)
+  - Agora `não precisamos mais utilizar` props.algumaCoisa;
