@@ -6,6 +6,7 @@ import ListRender from './components/ListRender'
 import ManageData from './components/ManageData'
 import ShowUserName from './components/ShowUserName'
 import CarDetails from './components/CarDetails'
+import Fragment from './components/Fragment'
 
 function App() {
   const name = "Miguel";
@@ -41,6 +42,8 @@ function App() {
       {cars.map(car => (
         <CarDetails key={car.id} brand={car.brand} km={car.km} color={car.color} newCar={car.newCar} />
       ))}
+      { /* Fragment */}
+      <Fragment propFragment="teste" />
     </>
   )
 }

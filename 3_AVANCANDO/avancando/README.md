@@ -98,3 +98,10 @@
   - Os arrays de dados podem ter `muitos itens` também
   - Então o correto é utilizar uma `estrutura de loop (map)` para a sua exibição
   - E com isso conseguimos conciliar os `três conceitos`: renderização de listas, reaproveitamento de componentes e props
+
+# Aula 14
+
+- React Fragments
+  - Os `React fragments` são interessantes para quando precisamos ter mais de um elemento pai em um componente
+  - Criamos uma tag vazia: `<>` ... `</>`
+  - `E ela serve como elemento pai`, não alterando a estrutura do HTML com uma div, por exemplo
