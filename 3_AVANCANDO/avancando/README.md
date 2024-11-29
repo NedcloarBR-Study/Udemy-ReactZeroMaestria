@@ -88,6 +88,13 @@
 # Aula 12
 
 - Reutilização de componentes
-- Com `props` a `reutilização de componentes` começa a fazer muito sentido
-- Se temos os dados de 1000 carros por exemplo, podemos `reaproveitar o nosso CarDetails 1000 vezes`
-- Isso torna nosso código mais padronizado, facilitando a manutenção
+  - Com `props` a `reutilização de componentes` começa a fazer muito sentido
+  - Se temos os dados de 1000 carros por exemplo, podemos `reaproveitar o nosso CarDetails 1000 vezes`
+  - Isso torna nosso código mais padronizado, facilitando a manutenção
+
+# Aula 13
+
+- Reutilização com loop
+  - Os arrays de dados podem ter `muitos itens` também
+  - Então o correto é utilizar uma `estrutura de loop (map)` para a sua exibição
+  - E com isso conseguimos conciliar os `três conceitos`: renderização de listas, reaproveitamento de componentes e props
