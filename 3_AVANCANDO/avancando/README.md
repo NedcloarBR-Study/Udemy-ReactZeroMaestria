@@ -113,3 +113,10 @@
   - Porém `este JSX vem do componente pai`
   - Então o componente age como um container, abraçando estes elementos
   - E children é considerada uma `prop do componente`
+
+# Aula 16
+
+- Funções em props
+  - As `funções podem ser passadas para as props` normalmente
+  - Basta criar a função no componente pai e `enviar como prop` para o componente
+  - No componente filho ela pode ser ativada por um evento, por exemplo
