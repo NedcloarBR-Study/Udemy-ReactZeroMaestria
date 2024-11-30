@@ -55,3 +55,10 @@
   - O textarea `pode ser considerado um input de texto normal`
   - Utilizaremos o `value` para alterar o state inicial
   - E o evento `onChange` para modificar o valor do state
+
+# Aula 09
+
+- Input de Select
+  - O select também será muito semelhante aos outros inputs
+  - Quando temos a alteração de um valor o evento onChange pode captar isso
+  - O value também pode atribuir qual option estará selecionada
