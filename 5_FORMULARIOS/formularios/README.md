@@ -49,3 +49,9 @@
   - Basta `atribuir um valor de uma string vazia aos states` e pronto!
   - Isso será feito após o envio, em formulários que o usuário precisa preencher novamente
 
+# Aula 08
+
+- Input de Textarea
+  - O textarea `pode ser considerado um input de texto normal`
+  - Utilizaremos o `value` para alterar o state inicial
+  - E o evento `onChange` para modificar o valor do state
