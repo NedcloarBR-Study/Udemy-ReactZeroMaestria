@@ -1,7 +1,10 @@
+import { useState } from 'react';
 import './App.css'
 import MyComponent from './components/MyComponent'
 
 function App() {
+  const n = 15;
+  const [name, setName] = useState("Miguel");
 
   return (
     <>
@@ -18,6 +21,10 @@ function App() {
       }}>
         Este elemento foi estilizado de forma inline
       </p>
+      {/* CSS Inline Dinâmico */}
+      <h2 style={n < 10 ? ({ color: "purple" }) : ({ color: "pink" })}>CSS dinâmico</h2>
+      <h2 style={n > 10 ? ({ color: "purple" }) : ({ color: "pink" })}>CSS dinâmico</h2>
+      <h2 style={name === "Miguel" ? ({ color: "green", backgroundColor: "black" }) : null}>Teste nome</h2>
     </>
   )
 }

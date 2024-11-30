@@ -19,3 +19,10 @@
   - O inline style do React é igual o do CSS
   - Por meio do atributo style conseguimos aplicar regras diretamente em um elemento
   - Devemos optar por outras maneiras de CSS, o inline pode dificultar a manutenção ou deixar o código imprevisível em algumas situações
+
+# Aula 04
+
+- Inline style Dinâmico
+  - O CSS dinâmico inline aplica estilo baseado em uma condicional
+  - Vamos inserir no atributo um if ternário
+  - Dependendo da condição podemos mudar que regras de estilo um elemento recebe
