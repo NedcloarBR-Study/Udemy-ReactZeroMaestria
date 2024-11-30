@@ -1,9 +1,9 @@
 # Aula 01
 
 - Formulários e React
-  - No React vamos também utilizar a tag form para formulários
-  - As labels dos inputs contém o atributo htmlFor, que deve ter o valor do name do input
-  - Não utilizamos action, pois o processamento será feito de form assíncrona
+  - No React vamos também utilizar a `tag form` para formulários
+  - As labels dos inputs contém o atributo `htmlFor`, que deve ter o valor do name do input
+  - `Não utilizamos action`, pois o processamento será feito de form assíncrona
 
 
 # Aula 02
@@ -31,6 +31,13 @@
 # Aula 05
 
 - Envio de formulário
-  - Para enviar um form vamos utilizar o evento `onSubmit`;
-  - `Ele chamará uma função`, e nesta devemos lembrar de parar a submissão com o `preventDefault`;
+  - Para enviar um form vamos utilizar o evento `onSubmit`
+  - `Ele chamará uma função`, e nesta devemos lembrar de parar a submissão com o `preventDefault`
   - Nesta etapa podemos realizar validações, envio de form para o servidor, reset de form e outras ações
+
+# Aula 06
+
+- Controlled inputs
+  - `Controlled inputs` é um recurso que nos permite mais flexibilidade nos forms de React
+  - Precisamos apenas `igualar o valor ao state`
+  - Um uso muito comum: formulários de edição, que os dados vem do back-end, conseguiremos preencher o input mais facilmente
