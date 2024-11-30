@@ -34,3 +34,11 @@
   - Também utilizaremos o if ternário
   - Essa abordagem é mais interessante que o CSS inline
   - Pois as classes estarão isoladas no arquivo de CSS, resolvendo o problema de organização de código
+
+# Aula 06
+
+- CSS Modules
+  - O CSS Modules é um recurso de CSS scoped
+  - Ou seja, ele vai ser exclusivo do componente
+  - O nome do arquivo é: Componente.module.css
+  - Precisamos importá-lo também no componente
