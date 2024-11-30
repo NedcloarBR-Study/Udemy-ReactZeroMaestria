@@ -27,3 +27,10 @@
   - Quando temos vários inputs podemos `realizar a manipulação de forma mais simples`
   - Basicamente criamos uma `função inline no onChange`
   - Ela vai `alterar o valor do state` com o método set, da mesma forma que a função isolada
+
+# Aula 05
+
+- Envio de formulário
+  - Para enviar um form vamos utilizar o evento `onSubmit`;
+  - `Ele chamará uma função`, e nesta devemos lembrar de parar a submissão com o `preventDefault`;
+  - Nesta etapa podemos realizar validações, envio de form para o servidor, reset de form e outras ações
