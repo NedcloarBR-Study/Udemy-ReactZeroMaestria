@@ -41,3 +41,11 @@
   - `Controlled inputs` é um recurso que nos permite mais flexibilidade nos forms de React
   - Precisamos apenas `igualar o valor ao state`
   - Um uso muito comum: formulários de edição, que os dados vem do back-end, conseguiremos preencher o input mais facilmente
+
+# Aula 07
+
+- Limpando formulários
+  - Com o controller inputs limpar o form será `fácil`
+  - Basta `atribuir um valor de uma string vazia aos states` e pronto!
+  - Isso será feito após o envio, em formulários que o usuário precisa preencher novamente
+
