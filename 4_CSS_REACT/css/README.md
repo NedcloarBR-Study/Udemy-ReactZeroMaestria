@@ -26,3 +26,11 @@
   - O CSS dinâmico inline aplica estilo baseado em uma condicional
   - Vamos inserir no atributo um if ternário
   - Dependendo da condição podemos mudar que regras de estilo um elemento recebe
+
+# Aula 05
+
+- Classes dinâmicas no CSS
+  - Podemos também aplicar lógica para mudar a classe de CSS de um elemento
+  - Também utilizaremos o if ternário
+  - Essa abordagem é mais interessante que o CSS inline
+  - Pois as classes estarão isoladas no arquivo de CSS, resolvendo o problema de organização de código
