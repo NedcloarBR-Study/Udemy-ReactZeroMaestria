@@ -36,3 +36,12 @@
   - Se a requisição foi feita com sucesso, podemos `adicionar o item a lista após o request`
   - Isso torna nossa aplicação mais `performática`
   - Utilizaremos o `set do useState` para isso
+
+# Aula 06
+
+- Custom hook para o fetch
+  - É normal dividir funções que podem ser reaproveitadas em hooks
+  - Esta técnica é chamada de `custom hook`, e vamos criar um para o resgate de dados
+  - Os hooks geralmente ficam na `pasta hooks`
+  - Devemos utilizar o padrão `use`Name
+  - Basicamente criamos uma função e exportamos ela
