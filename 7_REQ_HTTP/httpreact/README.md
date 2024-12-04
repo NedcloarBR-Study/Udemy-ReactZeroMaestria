@@ -60,3 +60,9 @@
   - Quando fizermos requisições para APIs `é normal que haja um intervalo de loading entre a requisição e o recebimento` da resposta
   - Podemos fazer isso no nosso `hook` também
   - `Identificar quando começa e termina` este estado
+
+# Aula 09
+
+- Estado de loading no POST
+  - Podemos bloquear ações indevidas em outras requests também, `como no POST`
+  - Uma ação interessante é `remover a ação de adicionar outro item` enquanto o request ainda não finalizou
