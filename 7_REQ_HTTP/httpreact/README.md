@@ -53,3 +53,10 @@
   - `Vamos criar um novo useEffect` que mapeia uma outra mudança de estado
   - Após ela ocorrer executamos a adição de produto
   - `Obs:` nem sempre reutilizar um hook é a melhor estratégia
+
+# Aula 08
+
+- Estado de loading
+  - Quando fizermos requisições para APIs `é normal que haja um intervalo de loading entre a requisição e o recebimento` da resposta
+  - Podemos fazer isso no nosso `hook` também
+  - `Identificar quando começa e termina` este estado
