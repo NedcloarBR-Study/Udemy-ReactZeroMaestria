@@ -30,6 +30,12 @@ function App() {
       },
       body: JSON.stringify(product),
     });
+
+    // 3 - carregamento dinâmico
+    const addedProduct = await res.json();
+    setProducts((prev) => [...prev, addedProduct]);
+    setName("");
+    setPrice("");
   };
 
   return (
