@@ -14,3 +14,11 @@
   - Isso é interessante pois os componentes estão sempre se re-renderizando, então precisamos ter `ações únicas` às vezes
   - O useEffect ainda possui um `array de dependências`, que deve conter os dados que ativem a execução da função de forma automática
   - O useEffect estará presente sempre nas `requisições assíncronas`
+
+# Aula 03
+
+- Resgatando dados com React
+  - Para trazer os dados vamos ter que utilizar vários recursos
+  - Primeiramente ter um local para salvá-los (`useState`)
+  - Renderizar a chamada a API apenas uma vez (`useEffect`)
+  - Um meio de fazer a requisição assíncrona (`Fetch API`)
