@@ -7,6 +7,7 @@ import About from "./pages/About";
 
 // 2 - Navigation
 import Navbar from "./components/Navbar";
+import Product from "./components/Product";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          {/* 4 - Rota dinâmica */}
+          <Route path="/product/:id" element={<Product />} />
         </Routes>
       </BrowserRouter>
     </>

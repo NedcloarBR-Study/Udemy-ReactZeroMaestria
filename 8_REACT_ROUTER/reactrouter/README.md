@@ -28,3 +28,10 @@
   - Depois poderemos utilizá-los para o `carregamento de dados individuais`
   - Utilizaremos o hook igual ao da última seção e vamos imprimir os produtos na Home da mesma forma
 
+# Aula 05
+
+- Rota dinâmica
+  - Para criar uma rota dinâmica vamos precisar definir uma `nova Route` em App.js
+  - Que deve ter o padrão de: `/products/:id`
+  - Onde `:id` é o dado dinâmico, ou seja, podemos ter qualquer valor
+  - Na página podemos utilizar o hook `useParams` para resgatar esta informação
