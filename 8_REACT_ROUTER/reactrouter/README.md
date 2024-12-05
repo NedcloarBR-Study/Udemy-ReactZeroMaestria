@@ -41,13 +41,20 @@
 - Carregando dado individual
   - Graças ao passo dado na aula passada o `carregamento individual` de um produto será fácil
   - Vamos utilizar o id recebido para `formar a nova URL`
-  - E por fim podemos utilizar o hook `useFetch` para trazer o item;
+  - E por fim podemos utilizar o hook `useFetch` para trazer o item
   - Por fim faremos a `validação e impressão` do mesmo no JS
 
 # Aula 07
 
 - Nested route
-  - As nested routes indicam URLs mais complexas, como: `/products/:id/something`;
+  - As nested routes indicam URLs mais complexas, como: `/products/:id/something`
   - Neste caso vamos precisar criar um componente que corresponda com o padrão indicado e também a URL em App.js
   - Na nested route `teremos o acesso ao parâmetro da URL` também
 
+# Aula 08
+
+- No match route (404)
+  - Podemos criar uma `página 404` facilmente com o React Router
+  - Basta `criarmos o componente` da página
+  - E no arquivo App.js definir um `path como *`
+  - Desta maneira, qualquer rota que não exista cairá neste componente
