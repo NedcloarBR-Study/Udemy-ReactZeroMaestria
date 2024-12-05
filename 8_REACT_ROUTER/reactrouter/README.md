@@ -43,3 +43,11 @@
   - Vamos utilizar o id recebido para `formar a nova URL`
   - E por fim podemos utilizar o hook `useFetch` para trazer o item;
   - Por fim faremos a `validação e impressão` do mesmo no JS
+
+# Aula 07
+
+- Nested route
+  - As nested routes indicam URLs mais complexas, como: `/products/:id/something`;
+  - Neste caso vamos precisar criar um componente que corresponda com o padrão indicado e também a URL em App.js
+  - Na nested route `teremos o acesso ao parâmetro da URL` também
+
