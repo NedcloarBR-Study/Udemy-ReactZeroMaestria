@@ -14,3 +14,9 @@
   - `BrowserRouter`: Define onde a área do nosso app que vai trocar as páginas
   - `Routes`: Define as rotas
   - `Route`: um elemento deste para cada rota, configurar com path e componente da rota
+
+# Aula 03
+
+- Adicionando links
+  - Para criar links para as páginas vamos precisar utilizar o `Link` do React Router
+  - No Link configuramos o parâmetro `to`, que recebe a `URL/path` que será redirecionado quem clicar no link
