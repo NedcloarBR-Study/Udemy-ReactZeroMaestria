@@ -35,3 +35,11 @@
   - Que deve ter o padrão de: `/products/:id`
   - Onde `:id` é o dado dinâmico, ou seja, podemos ter qualquer valor
   - Na página podemos utilizar o hook `useParams` para resgatar esta informação
+
+# Aula 06
+
+- Carregando dado individual
+  - Graças ao passo dado na aula passada o `carregamento individual` de um produto será fácil
+  - Vamos utilizar o id recebido para `formar a nova URL`
+  - E por fim podemos utilizar o hook `useFetch` para trazer o item;
+  - Por fim faremos a `validação e impressão` do mesmo no JS
