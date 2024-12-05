@@ -62,6 +62,13 @@
 # Aula 09
 
 - Link ativo
-  - Para ter fácil acesso a uma modificação para os links ativos vamos trocar o Link pelo `NavLink`;
+  - Para ter fácil acesso a uma modificação para os links ativos vamos trocar o Link pelo `NavLink`
   - Neste elemento temos acesso a um valor chamado `isActive`;
   - Ou seja, podemos `ativar uma classe` se a rota atual for a que está no `atributo to`
+
+# Aula 10
+
+- Search Params
+  - `Search Params` é um recurso que permite obter o que vem na URL em forma de parâmetro, ex: produtos?`q=camisa`
+  - Utilizamos o hook `useSeachParams` para obtê-los
+  - Com este recurso fica simples fazer uma `funcionalidade de busca` no sistema

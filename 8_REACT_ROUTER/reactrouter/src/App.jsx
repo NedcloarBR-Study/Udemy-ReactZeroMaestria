@@ -10,6 +10,8 @@ import Navbar from "./components/Navbar";
 import Product from "./pages/Product";
 import Info from "./pages/Info";
 import NotFound from "./pages/NotFound";
+import SearchForm from "./components/SearchForm";
+import Search from "./pages/Search";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <BrowserRouter>
         {/* 2 - Navigation */}
         <Navbar />
+        {/* 9 - search */}
+        <SearchForm />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -25,6 +29,8 @@ function App() {
           <Route path="/product/:id" element={<Product />} />
           {/* 6 - nested route */}
           <Route path="/product/:id/info" element={<Info />} />
+          {/* 9 - search */}
+          <Route path="/search" element={<Search />} />
           {/* 7 - no match route */}
           <Route path="*" element={<NotFound />} />
         </Routes>
