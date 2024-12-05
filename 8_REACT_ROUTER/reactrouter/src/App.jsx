@@ -13,6 +13,7 @@ function App() {
     <>
       <h1>React Router</h1>
       <BrowserRouter>
+        {/* 2 - Navigation */}
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

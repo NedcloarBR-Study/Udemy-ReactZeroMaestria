@@ -20,3 +20,11 @@
 - Adicionando links
   - Para criar links para as páginas vamos precisar utilizar o `Link` do React Router
   - No Link configuramos o parâmetro `to`, que recebe a `URL/path` que será redirecionado quem clicar no link
+
+# Aula 04
+
+- Carregando dados
+  - Vamos exercitar novamente o carregamento de dados com nosso hook `useFetch`
+  - Depois poderemos utilizá-los para o `carregamento de dados individuais`
+  - Utilizaremos o hook igual ao da última seção e vamos imprimir os produtos na Home da mesma forma
+
