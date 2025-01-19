@@ -1,9 +1,77 @@
 import styles from "./CreatePost.module.css";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { useAuthValue } from "../../context/AuthContext";
 
 const CreatePost = () => {
+  const [title, setTitle] = useState("");
+  const [image, setImage] = useState("");
+  const [body, setBody] = useState("");
+  const [tags, setTags] = useState([]);
+  const [formError, setFormError] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+  };
+
   return (
-    <div>
-      <h1>CreatePost</h1>
+    <div className={styles.create_post}>
+      <h2>Criar post</h2>
+      <p>Escreva sobre o que quiser e compartilhe o seu conhecimento!</p>
+      <form onSubmit={handleSubmit}>
+        <label>
+          <span>Título:</span>
+          <input
+            type="text"
+            name="title"
+            placeholder="Pense num bom título..."
+            onChange={(e) => setTitle(e.target.value)}
+            value={title}
+            required
+          />
+        </label>
+        <label>
+          <span>URL da imagem:</span>
+          <input
+            type="text"
+            name="image"
+            placeholder="Insira uma imagem que represente o seu post"
+            onChange={(e) => setImage(e.target.value)}
+            value={image}
+            required
+          />
+        </label>
+        <label>
+          <span>Conteúdo:</span>
+          <textarea
+            type="text"
+            name="body"
+            placeholder="Insira o conteúdo do seu post"
+            onChange={(e) => setBody(e.target.value)}
+            value={body}
+            required
+          ></textarea>
+        </label>
+        <label>
+          <span>Tags:</span>
+          <input
+            type="text"
+            name="tags"
+            placeholder="Insira as tags separadas por virgula"
+            onChange={(e) => setImage(e.target.value)}
+            value={tags}
+            required
+          />
+        </label>
+        <button className="btn">Criar post</button>
+        {/* {!loading && <button className="btn">Criar post</button>}
+        {loading && (
+          <button className="btn" disabled>
+            Aguarde...
+          </button>
+        )}
+        {error && <p className="error">{error}</p>} */}
+      </form>
     </div>
   );
 };
