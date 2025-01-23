@@ -17,7 +17,7 @@
 # Aula 03
 
 - useReducer
-  - O `useReducer` tem a mesma função que o useState, ele gerencia valores;
+  - O `useReducer` tem a mesma função que o useState, ele gerencia valores
   - Porém temos a possibilidade de `executar uma função na hora da alteração do valor`
   - Então temos que o useReducer recebe `um valor` para gerenciar e `uma função` para alterar este valor
 
@@ -27,3 +27,11 @@
   - Se o useReducer fosse utilizado como no exemplo passado, `não teria tanta diferença do useState`
   - Por isso o reducer geralmente contém `operações mais complexas`, utilizando a estrutura `switch com actions`
   - Esta situação foi apresentada na seção de Context API
+
+# Aula 05
+
+- useEffect
+  - O `useEffect` é utilizado para várias ações no nosso App, junto com useState é um dos hooks mais utilizados
+  - Podemos realizar desde `alterações na DOM a requisições HTTP`
+  - E o grande motivo é: `conseguimos controlar quantas vezes algo acontece`
+  - A sintaxe é formada por `uma função a ser executada` e `um array de dependências`
