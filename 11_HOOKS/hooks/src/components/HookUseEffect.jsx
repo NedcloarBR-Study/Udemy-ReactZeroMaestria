@@ -28,6 +28,16 @@ const HookUseEffect = () => {
     }
   }, [anotherNumber]);
 
+  // 4 - cleanup useEffect
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      console.log("Hello World");
+      setAnotherNumber(0);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, [anotherNumber]);
+
   return (
     <div>
       {/* 1 - useEffect */}

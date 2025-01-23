@@ -49,3 +49,10 @@
   - Outra maneira de controlar quando o useEffect será executado é `colocando algum item no array de dependências`
   - Assim sempre que o item for alterado, teremos o useEffect sendo executado novamente
   - Nos fornecendo um `maior controle de quando a função deve ou não ser executada`
+
+# Aula 08
+
+- Limpeza do useEffect
+  - Alguns efeitos precisam ter uma `técnica de cleanup (limpeza)` para garantir o seu funcionamento
+  - Não fazer isso pode gerar` erros ou comportamentos indesejados`
+  - `Exemplo:` um timeout que ao mudar de página pode continuar a ser executado, pela falta desta limpeza
