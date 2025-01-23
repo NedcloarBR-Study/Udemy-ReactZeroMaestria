@@ -13,3 +13,10 @@
   - Alteração de um state por evento de `onChange`
   - Limpeza de inputs (`Controlled Input`)
   - Após preenchimento total do form, unir os states e fazer um envio dos dados para o back-end
+
+# Aula 03
+
+- useReducer
+  - O `useReducer` tem a mesma função que o useState, ele gerencia valores;
+  - Porém temos a possibilidade de `executar uma função na hora da alteração do valor`
+  - Então temos que o useReducer recebe `um valor` para gerenciar e `uma função` para alterar este valor
