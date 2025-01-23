@@ -35,3 +35,10 @@
   - Podemos realizar desde `alterações na DOM a requisições HTTP`
   - E o grande motivo é: `conseguimos controlar quantas vezes algo acontece`
   - A sintaxe é formada por `uma função a ser executada` e `um array de dependências`
+
+# Aula 06
+
+- useEffect com array vazio
+  - Uma estratégia interessante para algumas situações é utilizar o `useEffect apenas uma vez`
+  - Para isso apenas precisamos deixar o `array de dependências vazio`
+  - `Ao renderizar o componente` a lógica será executada
