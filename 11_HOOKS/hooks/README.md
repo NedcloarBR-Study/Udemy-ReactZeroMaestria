@@ -64,3 +64,10 @@
   - Vamos precisar `criar o contexto` e também o `Provider`
   - `Envolver os componentes` que receberão os valores compartilhados
   - E então fazer o uso do hook onde necessário
+
+# Aula 10
+
+- useRef
+  - O `useRef` pode ser utilizado como useState para gerenciar valores;
+  - A diferença é que ele é um objeto, seu valor está na propriedade current;
+  - Outra particularidade do useRef é que ele `não re-renderiza o componente ao ser alterado`, sendo interessante alguns casos
