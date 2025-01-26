@@ -115,3 +115,15 @@
   - Os `custom hooks` são os hooks que nós criamos
   - Muitas vezes para abstrair funções complexas do componente ou simplesmente `reaproveitar código`
   - Esta técnica é muito utilizada em projetos profissionais
+
+# Aula 17
+
+- React Dev Tools
+  - `React Dev Tools` é uma extensão para o navegador
+  - Nela conseguimos `entender o que o React está gerando` por meio do nosso código
+  - Conseguimos também `verificar os states e outros parâmetros`
+
+- useDebugValue
+  - É um hook que é utilizado para `debug`
+  - Aconselhado para ser `utilizado em custom hooks`
+  - Adiciona uma área no `React Dev Tools`, ela estará no componente em que o hook é utilizado
