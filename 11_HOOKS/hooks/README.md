@@ -108,3 +108,10 @@
   - Com o hook `useImperativeHandle` temos como acionar ações em um outro componente de forma imperativa
   - Como não podemos passar refs como props, precisamos usar uma função `forwardRef`
   - Isso nos permite passar as referências, e torna o nosso exemplo viável
+
+# Aula 16
+
+- Custom hooks
+  - Os `custom hooks` são os hooks que nós criamos
+  - Muitas vezes para abstrair funções complexas do componente ou simplesmente `reaproveitar código`
+  - Esta técnica é muito utilizada em projetos profissionais

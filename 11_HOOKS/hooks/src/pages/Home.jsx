@@ -1,3 +1,4 @@
+import HookCustom from "../components/HookCustom";
 import HookUseCallback from "../components/HookUseCallback";
 import { SomeContext } from "../components/HookUseContext";
 import HookUseEffect from "../components/HookUseEffect";
@@ -27,6 +28,7 @@ const Home = () => {
       <HookUseMemo />
       <HookUseLayoutEffect />
       <HookUseImperativeHandle />
+      <HookCustom />
     </div>
   );
 };
