@@ -43,7 +43,7 @@
   - Para isso apenas precisamos deixar o `array de dependências vazio`
   - `Ao renderizar o componente` a lógica será executada
 
-# Aula 07 
+# Aula 07
 
 - Array de dependências do useEffect
   - Outra maneira de controlar quando o useEffect será executado é `colocando algum item no array de dependências`
@@ -54,5 +54,13 @@
 
 - Limpeza do useEffect
   - Alguns efeitos precisam ter uma `técnica de cleanup (limpeza)` para garantir o seu funcionamento
-  - Não fazer isso pode gerar` erros ou comportamentos indesejados`
+  - Não fazer isso pode gerar`erros ou comportamentos indesejados`
   - `Exemplo:` um timeout que ao mudar de página pode continuar a ser executado, pela falta desta limpeza
+
+# Aula 09
+
+- useContext
+  - O `useContext` é o hook utilizado para consumir um contexto, da Context API
+  - Vamos precisar `criar o contexto` e também o `Provider`
+  - `Envolver os componentes` que receberão os valores compartilhados
+  - E então fazer o uso do hook onde necessário
