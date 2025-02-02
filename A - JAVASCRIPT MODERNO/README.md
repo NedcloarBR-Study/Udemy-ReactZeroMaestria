@@ -33,3 +33,11 @@
   - O `map` é um método de array também, que percorre todos os elementos
   - Quando utilizamos o Map, `estamos querendo modificar os dados` do array
   - Há vários métodos de array importantes no ES6, este é um deles
+
+# Aula 06
+
+- Template literals
+  - O recurso de `template literals` permite concatenar uma string e forma simples
+  - Podemos colocar as `variáveis entre o texto`
+  - A string fica entre: \`texto\`
+  - E as variáveis são colocadas desta maneira: ${variável}
