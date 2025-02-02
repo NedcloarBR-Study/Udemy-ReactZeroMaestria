@@ -67,3 +67,11 @@
   - Para criar a rota de POST vamos utilizar o `método post` do Express
   - Podemos extrair os dados da requisição, acessando `req.body`
   - Da mesma maneira que no get, podemos `retornar uma resposta como JSON` pela API
+
+# Aula 09
+
+- Adicionando status na resposta
+  - Os status podem `ajudar no desenvolvimento da nossa aplicação`
+  - `Exibindo mensagens de sucesso ou erro`, por exemplo
+  - Precisamos entre res e o método json definir um `número de status HTTP`
+  - Isso é feito por meio do `método status`
