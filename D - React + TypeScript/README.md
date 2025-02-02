@@ -22,3 +22,10 @@
   - Em src que as coisas ficam diferentes, temos a criação de `arquivos .tsx`
   - `Que säo arquivos jsx` porém com a possibilidade de aplicação das funcionalidades de TS
   - Podemos executar o projeto com `npm run start`
+
+# Aula 04
+
+- Criação de variáveis em componentes
+  - Podemos `criar variáveis` dentro dos componentes
+  - E elas podem receber os tipos que já vimos até este momento do curso
+  - Isso nos permite `trabalhar com JSX` com apoio destas variáveis e seus tipos
