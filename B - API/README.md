@@ -26,3 +26,12 @@
   - Aplicações deste tipo estão `dominando o mercado`
   - E as sessões seguintes tem como objetivo trabalhar `focadas em SPA`
   - A arquitetura anteriormente utilizada é conhecida como `Monolith`
+
+# Aula 04
+
+- Verbos HTTP
+  - Os `verbos HTTP` andam de mãos dadas com as APIs, e fazem parte do `REST`
+  - Temos métodos como: `GET`, `POST`, `PUT`, `DELETE`, `PATCH` e etc
+  - Cada um `representa uma ação na API`, ou seja, säo essenciais
+  - É muito importante que as nossas funcionalidades usem os `métodos corretos`
+  - Enviamos o método `através da requisição`
