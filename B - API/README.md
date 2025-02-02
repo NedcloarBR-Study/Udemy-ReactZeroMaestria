@@ -75,3 +75,10 @@
   - `Exibindo mensagens de sucesso ou erro`, por exemplo
   - Precisamos entre res e o método json definir um `número de status HTTP`
   - Isso é feito por meio do `método status`
+
+# Aula 10
+
+- A realidade sobre as APIs...
+  - A API `é desenvolvida de forma muito semelhante` a quando criamos projetos com Handlebars, por exemplo
+  - Temos algumas alterações leves, como: `resposta apenas por JSON`
+  - Mas isso acaba até `simplificando as coisas`, separando as responsabilidades
