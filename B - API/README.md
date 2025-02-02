@@ -15,3 +15,14 @@
   - Um `estilo de arquitetura`, que define como as APIs devem ser criadas
   - Seguindo todos os padrões a API é considerada `RESTful`
   - Alguns dos pontos säo: respostas uniformes, sem ligação de estado,cache de respostas e outros
+
+# Aula 03
+
+- O que é uma SPA?
+  - `SPA` significa Single Page Application
+  - É quando a aplicação possui um `front-end separado do back-end`
+  - Ou seja, uma `API` para o back-end
+  - E um framework `front-end JS`, como: React, Vue ou Angular
+  - Aplicações deste tipo estão `dominando o mercado`
+  - E as sessões seguintes tem como objetivo trabalhar `focadas em SPA`
+  - A arquitetura anteriormente utilizada é conhecida como `Monolith`
