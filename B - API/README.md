@@ -51,3 +51,12 @@
   - Podemos então `criar o back-end antes ou separado do front` só com a ajuda deste software
   - Como você deve imaginar, é `fundamental` quando estamos criando APIs
   - Podemos `simular verbos`, `corpo de requisição`, inserir `headers`, tudo que é possível com uma aplicação web
+
+# Aula 07
+
+- Testando rota com Postman
+  - Para acessar uma rota com o Postman precisamos `configurar o client`
+  - Devemos `inserir o verbo correto` para a rota
+  - E também `configurar o endpoint`, que é a `URL` onde nossa rota foi
+  - estabelecida
+  - Enviando a requisição, `receberemos a resposta`
