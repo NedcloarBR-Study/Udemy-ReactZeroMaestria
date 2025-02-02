@@ -7,12 +7,19 @@ function App() {
   const age: number = 30;
   const isWorking: boolean = true;
 
+  // 2 - funções
+
+  const userGreeting = (name: string): string => {
+    return `Olá, ${name}!`;
+  }
+
   return (
     <div className="App">
       <h1>TypeScript com React</h1>
       <h2>Nome: {nome}</h2>
       <h2>Idade: {age}</h2>
       {isWorking && <p>Trabalhando</p>}
+      <h3>{userGreeting(nome)}</h3>
     </div>
   );
 }

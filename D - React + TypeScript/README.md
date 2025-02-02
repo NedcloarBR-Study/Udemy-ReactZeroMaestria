@@ -29,3 +29,11 @@
   - Podemos `criar variáveis` dentro dos componentes
   - E elas podem receber os tipos que já vimos até este momento do curso
   - Isso nos permite `trabalhar com JSX` com apoio destas variáveis e seus tipos
+
+# Aula 05 
+
+- Criação de funções em componentes
+  - Podemos também criar `funções em componentes`
+  - Estas funções recebem `parâmetros`, que `podem ser tipados`
+  - E o seu retorno também
+  - Ou seja, podemos aplicar os mesmos conceitos que jå vimos de TS
