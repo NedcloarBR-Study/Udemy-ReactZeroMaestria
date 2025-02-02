@@ -15,3 +15,11 @@
   - Com TS podemos `verificar os erros antes da execução` do código, ou seja, no desenvolvimento
   - Deixa JavaScript mais explicito, diminuindo a quantidade de bugs
   - Por estes e outros motivos `perdemos menos tempo com debug`
+
+# Aula 03
+
+- Instalando o TypeScript
+  - Para instalar o TypeScript vamos utilizar o `npm`
+  - O nome do pacote é `typescript`
+  - E vamos adicionar de forma global com a `flag -g`
+  - A partir da instalação temos como `executar/compilar` TS em qualquer local da nossa máquina, com o comando `tsc`
