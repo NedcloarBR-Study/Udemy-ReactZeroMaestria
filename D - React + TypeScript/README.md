@@ -13,3 +13,12 @@
   - Vamos começar com `create-react-app` e adicionar a flag `—template` com o valor de typescript
   - `Um novo projeto é criado`, agora com arquivos `.tsx`
   - Podemos inicializá-lo normalmente
+
+# Aula 03
+
+- Estrutura de React com TS
+  - A estrutura de React quando adicionamos TS `não muda muito`
+  - Temos as pastas clássicas como: `node_modules`, `src` e `public`
+  - Em src que as coisas ficam diferentes, temos a criação de `arquivos .tsx`
+  - `Que säo arquivos jsx` porém com a possibilidade de aplicação das funcionalidades de TS
+  - Podemos executar o projeto com `npm run start`
