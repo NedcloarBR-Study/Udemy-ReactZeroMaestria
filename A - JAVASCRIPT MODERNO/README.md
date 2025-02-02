@@ -12,3 +12,10 @@
   - A `let` que é semelhante ao var, podemos alterar valores
   - E a `const`, que é uma forma de declarar constantes
   - O grande diferencial é o `escopo de blocos`, não temos mais variáveis sendo "vazadas" para outros escopos por causa do mesmo nome
+
+# Aula 03
+
+- Arrow Functions
+  - A `arrow function` é um recurso para criar funções de forma mais simples
+  - Mas ela `não funciona exatamente como uma function` em todos os aspectos
+  - O `this da arrow function` é relacionado ao elemento pai de quem está a executando
