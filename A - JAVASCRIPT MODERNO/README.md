@@ -19,3 +19,10 @@
   - A `arrow function` é um recurso para criar funções de forma mais simples
   - Mas ela `não funciona exatamente como uma function` em todos os aspectos
   - O `this da arrow function` é relacionado ao elemento pai de quem está a executando
+
+# Aula 04
+
+- Filter
+  - O filter é um `método de array para filtrar dados`, baseado em alguma condição que estabelecemos
+  - Isso nos dá u`m array com apenas os elementos que queremos`, de forma performática
+  - Há vários métodos de array importantes no ES6, este é um deles
