@@ -26,3 +26,10 @@
   - O filter é um `método de array para filtrar dados`, baseado em alguma condição que estabelecemos
   - Isso nos dá u`m array com apenas os elementos que queremos`, de forma performática
   - Há vários métodos de array importantes no ES6, este é um deles
+
+# Aula 05
+
+- Map
+  - O `map` é um método de array também, que percorre todos os elementos
+  - Quando utilizamos o Map, `estamos querendo modificar os dados` do array
+  - Há vários métodos de array importantes no ES6, este é um deles
