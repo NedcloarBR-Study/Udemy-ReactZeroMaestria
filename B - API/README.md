@@ -35,3 +35,11 @@
   - Cada um `representa uma ação na API`, ou seja, säo essenciais
   - É muito importante que as nossas funcionalidades usem os `métodos corretos`
   - Enviamos o método `através da requisição`
+
+# Aula 05
+
+- Criando uma API com Express
+  - Para criar a `API` teremos uma tarefa simples, comparada a estrutura com Handlebars;
+  - Basta instalar o Express, ele fará tudo sozinho neste ponto;
+  - Depois `criaremos uma rota que responde em JSON`, este é o dado de comunicação entre aplicação e API;
+  - É importante definir o `verbo correto`, como `GET` ou `POST`, por ex;
