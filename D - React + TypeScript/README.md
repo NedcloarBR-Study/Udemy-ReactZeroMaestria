@@ -44,3 +44,10 @@
   - A importação de componente `funciona da mesma forma que sem TypeScript`
   - Porém temos que nos atentar aos `valores e tipos das props` de cada componente
   - O TS interage de forma mais sucinta na parte da importação
+
+# Aula 08
+
+- Destructuring nas props
+  - O `destructuring` é um recurso de ES6, que `permite separar um array ou objeto` em varias variáveis
+  - Aplicamos esta técnica nas `props`, para näo precisa repetir o nome do objeto sempre
+  - Podemos fazer desta maneira em TS também
