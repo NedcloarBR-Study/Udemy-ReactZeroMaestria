@@ -8,6 +8,9 @@ import FirstComponent from './components/FirstComponent';
 import SecondComponent from './components/SecondComponent';
 import Destructuring from './components/Destructuring';
 
+// 6 - useState
+import State from './components/State';
+
 function App() {
   // 1 - variáveis
   const nome: string = 'Matheus';
@@ -33,7 +36,9 @@ function App() {
         title="Título"
         content="Conteúdo"
         commentsQty={10}
-        tags={['tag1', 'tag2', 'tag3']}/>
+        tags={['tag1', 'tag2', 'tag3']}
+      />
+      <State />
     </div>
   );
 }

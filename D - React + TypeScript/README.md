@@ -51,3 +51,11 @@
   - O `destructuring` é um recurso de ES6, que `permite separar um array ou objeto` em varias variáveis
   - Aplicamos esta técnica nas `props`, para näo precisa repetir o nome do objeto sempre
   - Podemos fazer desta maneira em TS também
+
+# Aula 09
+
+- O hook useState
+  - O `useState` é um hook muito utilizado em React
+  - Serve para `consultar e alterar o estado` de algum dado
+  - `Atrelamos uma função set a um evento`, como mudança de dado em input e alteramos o valor da variável base
+  - Podemos adaptar este recurso para TS também
