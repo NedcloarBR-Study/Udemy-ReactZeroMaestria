@@ -49,3 +49,9 @@
   - A ideia é `transformar os itens de um desses dados em variáveis`
   - Simplificando a declaração de n variáveis em `apenas 1 linha`
 
+# Aula 08
+
+- Spread Operator
+  - O `Spread` pode ser utilizado também em arrays e objetos
+  - Utilizamos para `construir novos valores destes dados` em outros arrays e objetos
+  - Ou seja, podemos `unit vários arrays` de maneira simples ou adicionar valors de um objeto a outro, por exemplo
