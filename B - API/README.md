@@ -60,3 +60,10 @@
   - E também `configurar o endpoint`, que é a `URL` onde nossa rota foi
   - estabelecida
   - Enviando a requisição, `receberemos a resposta`
+
+# Aula 08
+
+- Criando uma rota de POST
+  - Para criar a rota de POST vamos utilizar o `método post` do Express
+  - Podemos extrair os dados da requisição, acessando `req.body`
+  - Da mesma maneira que no get, podemos `retornar uma resposta como JSON` pela API
