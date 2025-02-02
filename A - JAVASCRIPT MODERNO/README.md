@@ -41,3 +41,11 @@
   - Podemos colocar as `variáveis entre o texto`
   - A string fica entre: \`texto\`
   - E as variáveis são colocadas desta maneira: ${variável}
+
+# Aula 07
+
+- Destructuring
+  - O `destructuring` é um recurso que pode ser utilizado em arrays e objetos
+  - A ideia é `transformar os itens de um desses dados em variáveis`
+  - Simplificando a declaração de n variáveis em `apenas 1 linha`
+
