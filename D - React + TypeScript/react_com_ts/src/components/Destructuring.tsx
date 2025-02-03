@@ -5,9 +5,17 @@ interface Props {
   content: string
   commentsQty: number
   tags: string[]
+  // 8 - enum
+  category: Category
 }
 
-function Destructuring({ title, content, commentsQty, tags }: Props): ReactElement {
+export enum Category {
+  JS = "JavaScript",
+  TS = "TypeScript",
+  P = "Python",
+}
+
+function Destructuring({ title, content, commentsQty, tags, category }: Props): ReactElement {
 
   return (
     <div>
@@ -19,6 +27,7 @@ function Destructuring({ title, content, commentsQty, tags }: Props): ReactEleme
           <span>#{tag}</span>
         ))}
       </div>
+      <div>Categoria: {category}</div>
     </div>
   );
 }
